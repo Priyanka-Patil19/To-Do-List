@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <header class="headersection">To Do List</header>
+    <div class="holebox">
+        <div class="listOfNav">
+            <ul class="mainorderlist">
+                <a href="index.html"> <li  value="addproject" class="mainListItem" id="addproject">Add Project</li></a>
+                <a href ="addItem.html"> <li  value="additem" class="mainListItem" id="additem">Add Item</li></a>
+                <a href ="list.html"><li  value="list" class="mainListItem" id="list">List</li></a>
+            </ul>
+        </div>
+        <div class="workspacebox">
+            <div class="tablealinment">
+                <div class="card" style="margin-top: 20px; padding: 12px 12px 14px;">
+                    <h2 style="margin-bottom: 20px;">Add New ToDo Item</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                <h5>Title</h5>
+                            </td>
+                            <td><input class="form-control" type="text" id="title" title="hello" hint="hello"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>Discription</h5>
+                            </td>
+                            <td><input class="form-control" type="text" style="height: 100px;" id="discription"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>Deu Date</h5>
+                            </td>
+                            <td><input class="form-control" type="date" id="deudate"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>Priority</h5>
+                            </td>
+                            <td>
+                                <select class="form-select" id="priority" style="height: 35px; width: 100%;">
+                                    <option value="Low">Low</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="High">High</option>
+                                    <option value="Highest">Highest</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>Project</h5>
+                            </td>
+                            <td>
+                                <select class="form-select" id="project" style="height: 35px; width: 100%;"></select>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="text-center" style="margin-top: 20px;">
+                        <button class="btn btn-primary" id="additembtn">Add Item</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

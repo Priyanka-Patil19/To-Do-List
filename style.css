@@ -1,0 +1,129 @@
+*{
+    background-color: aliceblue;
+    color: black;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+}
+
+.listOfNav{
+    background-color: burlywood;
+    font: 1em sans-serif;
+    font-size: 35px;
+   
+    color: black;
+    align-items: flex-start;
+    height: 700px;
+    width: 300px;
+   /* // display: list-item; */
+
+}
+
+.workspacebox{
+    background-color: cornsilk;
+    color: black;
+    border: 2px;
+    height: 700px;
+    width: 1300px;
+    align-items: center;
+
+}
+.tablealinment{
+    border: 2px solid black;
+    border-radius: 2%;
+     text-align: center; 
+    margin-top: 90px;
+   margin-left: 90px;
+    width: 600px;
+    height: auto;
+    align-items: center;
+
+}
+
+.holebox{
+    display: flex;
+}
+
+table{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    align-items: center;
+    margin-left: 200px;
+}
+
+
+
+.mainListItem {
+    display: flex;
+    width: 100px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.mainListItem:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.mainListItem:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+#addprojectbtn {
+    display: flex;
+    width: 100px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(68, 65, 247);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#addprojectbtn:hover {
+    background-color: rgb(28, 113, 241);
+}
+
+#addprojectbtn:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
